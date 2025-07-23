@@ -8,7 +8,7 @@ body {
     margin: 0;
     height: 100%;
 }
-/* a blue color as a generic focus style */
+
 button:focus-visible {
     outline: -webkit-focus-ring-color auto 5px !important;
 }
