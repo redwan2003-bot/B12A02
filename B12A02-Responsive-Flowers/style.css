@@ -359,7 +359,8 @@
 
     .header {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        justify-content: space-between;
         align-items: center;
         margin-top: 30px;
     }
@@ -412,12 +413,14 @@
     .offer-card-right {
         width:auto;
         position: relative;
+        align-items: center;
     }
     .deal-img-right {
         filter: brightness(60%);
         width: 380px;
         border: none;
         border-radius: 20px;
+        align-items: center;
     }
     .offer-card-content-right a {
         color: white;
@@ -429,6 +432,7 @@
         color: white;
         font-size: 1.2rem;
         text-align: center;
+        align-items: center;
 
     }
     /*join the bunch*/
@@ -441,10 +445,13 @@
         margin-bottom: 23px;
     }
     .email {
-        width: auto;
+        width: 200px;
         height: 30px;
         color: rgba(0, 0, 0, 0.5);
-        border: none;}
+        border: none;
+        padding: 8px 20px 8px 20px;
+
+    }
 
     .btn-subscribe{
         box-sizing: border-box;
@@ -459,19 +466,30 @@
     }
     .join-the-bunch {
         margin-top: 120px;
+        padding: 50px 20px;
+        height: auto;
         background-image: url(./assets/news-letter-bg.png);
+        background-size: cover;
         text-align: center;
         align-items: center;
     }
+
     /*footer section*/
 
     .footer-section{
         display: flex;
         flex-direction: column;
         gap: 30px;
-        justify-content: space-between;
+        align-items: flex-start;
         box-sizing: border-box;
-        padding:  50px 160px 50px 160px;
+        padding:  50px 20px;
+    }
+    .footer-section .footer-nav ul,
+    .footer-section .footer-nav-2 ul,
+    .footer-section .icon ul {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
     }
 
 }
