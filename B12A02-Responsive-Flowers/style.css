@@ -2,7 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-family: "Noto Serif", sans-serif;
+    font-family: "Noto Serif", ui-rounded;
 }
 
 .body {
@@ -33,12 +33,12 @@
 }
 
 .navbar ul li a {
-    font-weight: 400;
-    color: rgb(137, 135, 161);
+    font-weight: 500;
+    color: rgb(0 0 0);
 }
 .Home {
-    font-weight: bold;
-    color: rgb(37, 36, 50);
+    font-weight: 500;
+    color: rgb(0 0 0 );
 }
 
 .Cart {
@@ -57,7 +57,7 @@
     padding: 22px 0 22px 0;
     height: 60px;
 }
-.navbar ul li a :hover {
+.navbar ul li  :hover {
     color: rgba(255, 127, 80, 0.811);
 }
 /*banner-section*/
@@ -273,7 +273,7 @@
 .email {
     width: 644px;
     height: 50px;
-    color:  rgba(0, 0, 0, 0.5);
+    color: rgba(0, 0, 0, 0.5);
     border: none;
     padding: 8px 20px 8px 20px;
 
@@ -369,6 +369,7 @@
         width: 570px;
         height: 355px;
         margin-bottom: 20px;
+        border: none;
     }
     .banner-section {
         display: flex;
@@ -413,6 +414,7 @@
         position: relative;
     }
     .deal-img-right {
+        filter: brightness(60%);
         width: 380px;
         border: none;
         border-radius: 20px;
@@ -441,7 +443,7 @@
     .email {
         width: auto;
         height: 30px;
-        color:  rgba(0, 0, 0, 0.5);
+        color: rgba(0, 0, 0, 0.5);
         border: none;}
 
     .btn-subscribe{
